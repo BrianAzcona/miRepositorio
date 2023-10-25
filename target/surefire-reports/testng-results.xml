@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-25T02:26:33Z" name="BDD Test Suite" finished-at="2023-10-25T02:26:40Z" duration-ms="7473">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-25T02:26:33Z" name="Login and Update Profile Test" finished-at="2023-10-25T02:26:40Z" duration-ms="7473">
+      <class name="com.crowdar.bdd.cukes.TestNGSecuencialRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" started-at="2023-10-25T02:26:33Z" name="setUpClass" finished-at="2023-10-25T02:26:33Z" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" started-at="2023-10-25T02:26:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-25T02:26:35Z" duration-ms="2160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Listar espacios de trabajo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Proyectos del workspace"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" started-at="2023-10-25T02:26:35Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-25T02:26:36Z" duration-ms="610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Listar Proyectos de workspace"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Proyectos del workspace"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" started-at="2023-10-25T02:26:36Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-25T02:26:37Z" duration-ms="867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Consultar un proyecto por su identificador exitosamente"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Proyectos del workspace"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" started-at="2023-10-25T02:26:37Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-25T02:26:37Z" duration-ms="841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Consultar un proyecto por su identificador no encontrado"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Proyectos del workspace"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" started-at="2023-10-25T02:26:37Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-25T02:26:38Z" duration-ms="886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Actualizar membresías de proyecto Autorizado"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Proyectos del workspace"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" started-at="2023-10-25T02:26:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-25T02:26:39Z" duration-ms="811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Actualizar membresías de proyecto No Autorizado"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Proyectos del workspace"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" started-at="2023-10-25T02:26:39Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-25T02:26:40Z" duration-ms="827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Actualizar membresías de proyecto Solicitud incorrecta"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Proyectos del workspace"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.crowdar.bdd.cukes.TestNGSecuencialRunner@7ed7259e]" started-at="2023-10-25T02:26:40Z" name="tearDownClass" finished-at="2023-10-25T02:26:40Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.crowdar.bdd.cukes.TestNGSecuencialRunner -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

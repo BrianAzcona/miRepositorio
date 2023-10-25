@@ -1,0 +1,56 @@
+{
+  "billable": true,
+  "clientId": "string",
+  "color": "string",
+  "estimate": {
+    "estimate": "string",
+    "type": "AUTO"
+  },
+  "hourlyRate": {
+    "amount": 0,
+    "since": "string"
+  },
+  "isPublic": true,
+  "memberships": [
+    {
+      "hourlyRate": {
+        "amount": 0,
+        "since": "string"
+      },
+      "membershipStatus": "PENDING",
+      "membershipType": "string",
+      "targetId": "string",
+      "userId": "string"
+    }
+  ],
+  "name": "string",
+  "note": "string",
+  "public": true,
+  "tasks": [
+    {
+      "assigneeId": "string",
+      "assigneeIds": [
+        "string"
+      ],
+      "billable": true,
+      "budgetEstimate": 0,
+      "costRate": {
+        "amount": 0,
+        "since": "string",
+        "sinceAsInstant": "2019-08-24T14:15:22Z"
+      },
+      "estimate": "string",
+      "hourlyRate": {
+        "amount": 0,
+        "since": "string"
+      },
+      "id": "string",
+      "name": "string",
+      "projectId": "string",
+      "status": "string",
+      "userGroupIds": [
+        "string"
+      ]
+    }
+  ]
+}
